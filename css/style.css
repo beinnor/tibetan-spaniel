@@ -1,0 +1,159 @@
+/* ***   COLOR SCHEME  *** 
+  --bg-color: #4C82B5;
+  --content-bg-color: #AACCEC;
+  --body-copy: #4B5A68;
+  --headings: #2C4B68;
+*/
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background-color: #4C82B5;
+  color: #4B5A68;
+  box-sizing: border-box;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 62.5%/* 1em = 10px */
+  ;
+  line-height: 1.5;
+}
+
+
+/*  *** HEADINGS *** */
+
+h1,
+h2 {
+  text-align: center;
+  color: #2C4B68;
+}
+
+h1 {
+  font-family: 'Times New Roman', Georgia, serif;
+  font-size: 4.8em;
+}
+
+h2 {
+  font-size: 2.4em;
+}
+
+p {
+  font-size: 1.8em;
+  padding: 0.5em;
+}
+
+figcaption {
+  font-size: 1.5em;
+}
+
+
+/*  *** OUTER SECTIONING *** */
+
+header,
+main,
+footer {
+  background-color: #AACCEC;
+  max-width: 60%;
+  margin: 1% auto 1% auto;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+}
+
+main {
+  padding: 0;
+}
+
+footer {
+  text-align: center;
+}
+
+
+/*  *** CONTENT AREA SECTIONING *** */
+
+section {
+  margin: 0 auto;
+  padding: 5% 10% 5% 10%;
+}
+
+article {
+  width: 80%;
+  margin: 5% auto 5% auto;
+}
+
+
+/*  *** IMAGE *** */
+
+figure {
+  border: 1px solid;
+  text-align: center;
+}
+
+figure img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+
+/*  *** NAV AT BOTTOM *** */
+
+nav {
+  margin: 0 auto 0 auto;
+  border-top: 1px solid;
+  text-align: center;
+}
+
+a:link {
+  color: #4B5A68;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #4B5A68;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #2C4B68;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #2C4B68;
+  text-decoration: underline;
+}
+
+
+/*  *** MEDIA QUERIES ***  */
+
+@media screen and (max-width: 720px) {
+  html {
+    font-size: 13px;
+  }
+  header,
+  main,
+  footer {
+    max-width: 100%;
+  }
+  section {
+    padding: 1% 10% 1% 10%;
+  }
+  article {
+    width: 100%;
+    margin: 1% auto 1% auto;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  html {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  html {
+    font-size: 10px;
+  }
+}
